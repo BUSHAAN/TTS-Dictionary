@@ -58,7 +58,6 @@ class DictionaryApp(QWidget):
         main_layout.addLayout(button_layout)
 
         self.speak_button = QPushButton("start voice")
-        #speak_button.setIcon(QIcon("speaker.png"))
         self.speak_button.clicked.connect(self.speak_word)
         button_layout.addWidget(self.speak_button)
 
